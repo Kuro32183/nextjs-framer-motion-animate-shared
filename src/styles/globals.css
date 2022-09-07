@@ -1,0 +1,70 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.image_grid {
+    width: 100vw;
+    display: grid;
+    padding: 20px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+}
+
+.image_card {
+    display: block;
+}
+
+.image_card_single {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.pop_up_container {
+    display: block;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+}
+
+.close_button {
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.close_button span {
+    cursor: pointer;
+}
+
+.pop_up_image {
+    width: 55vw;
+    margin: auto;
+    margin-top: -20px;
+}
+
+.pop_up_image_single {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.pop_tabs {
+    width: 40vw;
+    display: flex;
+    margin: auto;
+    justify-content: space-evenly;
+}
+
+.tab {
+    width: 40px;
+    height: 40px;
+}
+
+.tab_single {
+    width: 100%;
+    border-radius: 10px;
+}
